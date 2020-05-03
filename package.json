@@ -1,0 +1,21 @@
+{
+    "name": "gsnippets",
+    "publisher": "decova",
+    "displayName": "GSnippets",
+    "description": "All of My Snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "TypeScript",
+                "path": "./snippets/TypeScript.json"
+            }
+        ]
+    }
+}

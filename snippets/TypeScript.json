@@ -1,0 +1,21 @@
+{
+    "Terminal Mcq Prompt":{
+        "prefix": "xTerm_mcq",
+        "body": [
+            "let ops = { c1: 'Choice 1', c2: 'Choice 2', c3: 'Choice 3' };",
+            "let selected = await terminal.McqAsync('Pick your cherry', ops);",
+            "switch(selected)",
+            "{",
+                "case ops.c1:",
+                "console.log('ops.c1');",
+                "break;",
+                "case ops.c2:",
+                "console.log('ops.c2');",
+                "break;",
+                "case ops.c3:",
+                "console.log('ops.c3');",
+                "break;",
+            "}"
+        ]
+    }
+}
